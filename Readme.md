@@ -1,6 +1,6 @@
 # XTunnel
 
-XTunnel是一个TCP隧道工具，通过部署中间节点试两个无法直接联通的节点可以正常通讯，类似SSH的TUNNEL功能。
+XTunnel是一个TCP隧道工具，通过部署中间节点使两个无法直接联通的节点可以正常通讯，类似SSH的TUNNEL功能。
 
 ## 特性
 * 支持SSL加密功能，可以在两个XTunnel之间采用SSL连接，突破防火墙的报文内容侦测。
