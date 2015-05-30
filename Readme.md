@@ -7,7 +7,7 @@ XTunnel是一个TCP隧道工具，通过部署中间节点使两个无法直接�
 * 同时支持多组转发配置，采用Netty异步框架，有很高的性能。
 
 ## XTunnel + OpenVPN
-![openvpn](http://144.131.254.48:5446/quhw/xtunnel/uploads/7f3d161ebeccd1f2d720087d1c851283/openvpn.png)
+![openvpn](https://github.com/quhw/xtunnel/raw/master/openvpn.png)
 
 ## 配置文件
 
