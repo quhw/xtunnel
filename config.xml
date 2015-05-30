@@ -2,6 +2,6 @@
 <config>
 	<tunnel name="openvpn tunnel">
 		<local port="1194" />
-		<remote host="116.228.21.170" port="6447" ssl="true"/>
+		<remote host="116.228.21.170" port="6442" />
 	</tunnel>
 </config>

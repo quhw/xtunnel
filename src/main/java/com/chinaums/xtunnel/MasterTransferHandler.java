@@ -42,7 +42,7 @@ public class MasterTransferHandler extends SlaveTransferHandler {
 
 		// 注意，这里是同步等待，如果网络连接时间过长，会卡住所有线程。
 		ChannelFuture f = b.connect(config.getRemote().getHost(),
-				config.getRemote().getPort()).sync();
+				config.getRemote().getPort()).await();
 		if (f.isSuccess()) {
 			setRelatedChannel(f.channel());
 		} else {
